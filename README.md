@@ -13,7 +13,7 @@
  - - ex. https://jyoung.ngrok.io/api/twiml
  - Start the application again
  - Show output from "Media Streams - ASP.NET Core Web Server
- - make sure you can hit the twiml ngrok url in the browser
+ - make sure you can hit the twiml ngrok url in the browser (has GET exposed to quickly check from the browser)
  - - ex. https://jyoung.ngrok.io/api/twiml
  - Place a short call into your phone number and beggin speaking
  - See error in output logs.
