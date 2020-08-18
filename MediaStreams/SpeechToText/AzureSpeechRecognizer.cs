@@ -9,7 +9,7 @@ namespace MediaStreams.SpeechToText
 {
     public class AzureSpeechRecognizer
     {
-        private static SpeechConfig _speechConfig = SpeechConfig.FromSubscription("aee035db48bc48e09941f4839e4c3feb", "eastus");
+        private static SpeechConfig _speechConfig = SpeechConfig.FromSubscription("", "eastus");
         private static TaskCompletionSource<int> _stopRecognition = new TaskCompletionSource<int>();
         private static Dictionary<string, AzureSpeechToTextConnection> _connections = new Dictionary<string, AzureSpeechToTextConnection>();
 
